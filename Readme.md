@@ -7,8 +7,9 @@ Both use .csv file inputs, further instructions below.
 ## Requirements
 `ruby` is required to run these scripts.
 
-Also, the gem `interpolate` must be installed. To install, enter the following in your CLI:
+Also, the gem `interpolate` and `csv` must be installed. To install, enter the following in your CLI:
 ```gem install interpolate```
+```gem install csv```
 
 ## Instructions
 To generate an output for Challenge #1 using the default .csv file simply enter the following in your CLI:
@@ -30,6 +31,6 @@ method with the desired csv file name (Both located in spread_to_benchmark.rb an
 After completing the above instructions, a .csv file named either `spread_to_benchmark_output.csv` OR `spread_to_curve_output.csv` will be generated within the root directory. Delete/move the output file to generate a new output using a different input.
 
 ## Technical Choices
-I chose to use ruby as the scripting language mainly because the role I'm applying for is ruby focused. I chose to use the interpolate gem due to time constraints planning out the logic.
+I chose to use ruby as the scripting language mainly because the role I'm applying for is ruby focused. I chose to use the interpolate gem due to time constraints planning out the logic. The csv gem was appropriate for reading and writing csv files via ruby objects.
 
-If I was able to complete the solutions faster, I would have used rspec to write automated test scripts. 
+If I was able to complete the solutions faster, I would have used rspec to write automated test scripts.
