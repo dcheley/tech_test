@@ -22,6 +22,7 @@ class BenchmarkCalculator
       output_data << '%.2f' % (((c["yield"].to_f / 100) - (benchmark["yield"].to_f / 100)) * 100) + '%'
     end
 
+    puts "#{output_data}"
     output_data
   end
 end
